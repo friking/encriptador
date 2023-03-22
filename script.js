@@ -47,10 +47,10 @@ function desencriptar(stringDesencriptada){
     return stringDesencriptada
 
 }
-    function copiarTexto(){
 
-        mensaje.select();
-        document.execCommand('copy')
+function copiarTexto() {
+    mensaje.select();
+    mensaje.exeComand('copy');
 
 
-    }
+}
